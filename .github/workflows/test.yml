@@ -42,5 +42,5 @@ jobs:
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           header: ${{ inputs.specFileName }}
-          message: |
-            "Hello world!!!"
+          path: score.md
+          
